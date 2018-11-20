@@ -1,1 +1,1 @@
-# DevCamp training  
+# DevCamp Rails training  
