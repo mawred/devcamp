@@ -1,4 +1,10 @@
-<h1>Homepage</h1>
+<h1> 
+  <% if !current_user.nil? %>
+    Hi,<%= current_user.first_name %>
+  <% else %>
+    Hello stranger
+  <% end %>
+</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
 
 <h1> Blog Posts</h1>
